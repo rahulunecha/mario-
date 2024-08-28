@@ -9,7 +9,7 @@ RUN rm -rf /var/www/html/index.html
 
 WORKDIR /var/www/html
 
-COPY mario-run /var/www/html
+COPY Mario-Run /var/www/html
 
 EXPOSE 80
 
